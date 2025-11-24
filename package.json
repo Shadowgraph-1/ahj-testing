@@ -1,0 +1,33 @@
+{
+  "name": "credit-card-validator",
+  "version": "1.0.0",
+  "description": "Credit Card Validator widget",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack serve --mode=development --open",
+    "start": "npm run dev",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shadowgraph-1/ahj-testing.git"
+  },
+  "keywords": ["credit-card", "validator", "webpack", "testing"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.6.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "babel-jest": "^29.7.0",
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.4",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.1"
+  }
+}
